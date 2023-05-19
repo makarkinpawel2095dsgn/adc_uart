@@ -1,0 +1,113 @@
+Dependencies for Project 'adc_uart', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\main.c)(0x64660F61)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_gpio.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_usart.h)(0x621892A8)
+I (ADS1282.h)(0x64511B85)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_spi.h)(0x6218928A)
+F (.\adc1282.c)(0x64660955)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/adc1282.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_gpio.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_spi.h)(0x6218928A)
+I (ADS1282.h)(0x64511B85)
+F (.\ADS1282.h)(0x64511B85)()
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_dma.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_dma.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_dma.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_eint.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_eint.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_eint.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_gpio.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_gpio.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_gpio.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_misc.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_misc.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_misc.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_rcm.c)(0x62178192)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_rcm.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_spi.c)(0x621892C6)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_spi.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_spi.h)(0x6218928A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_tmr.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_tmr.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_tmr.h)(0x6218929C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+F (C:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/src/apm32f10x_usart.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/apm32f10x_usart.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_usart.h)(0x621892A8)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\StdPeriphDriver\inc\apm32f10x_rcm.h)(0x62178194)
+F (RTE/Device/APM32F103ZE/startup_apm32f10x_hd.s)(0x62178194)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"APM32F10X_HD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_apm32f10x_hd.o)
+F (RTE/Device/APM32F103ZE/system_apm32f10x.c)(0x62178194)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_-o ./objects/system_apm32f10x.o -MD)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x62AB0E5A)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\tools\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x637B330C)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\makp3\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x62178194)

@@ -1,0 +1,9 @@
+-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier
+-I./RTE/_Target_1
+-IC:/Users/makp3/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/Device/Geehy/APM32F10x/Include
+-IC:/Users/makp3/AppData/Local/Arm/Packs/Geehy/APM32F1xx_DFP/1.0.8/Device/StdPeriphDriver/inc
+-D__UVISION_VERSION="538" -D_RTE_ -DAPM32F10X_HD -D_RTE_
+-o ./objects/tim_adc.o -MD "tim_adc.c"

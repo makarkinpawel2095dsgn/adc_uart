@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\adc1282.o"
+".\objects\apm32f10x_dma.o"
+".\objects\apm32f10x_eint.o"
+".\objects\apm32f10x_gpio.o"
+".\objects\apm32f10x_misc.o"
+".\objects\apm32f10x_rcm.o"
+".\objects\apm32f10x_spi.o"
+".\objects\apm32f10x_tmr.o"
+".\objects\apm32f10x_usart.o"
+".\objects\startup_apm32f10x_hd.o"
+".\objects\system_apm32f10x.o"
+--strict --scatter ".\Objects\adc_uart.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\adc_uart.map" -o .\Objects\adc_uart.axf
